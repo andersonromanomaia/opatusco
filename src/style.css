@@ -1,0 +1,199 @@
+
+
+/* @import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,400;1,500&display=swap"); */
+
+body {
+  background-color: #d0e2f2;
+}
+ 
+.logo{
+    height: 150px;
+}
+
+/* form input */
+ 
+input:not([type="checkbox"],[type="radio"]) {
+  border-color: #dfdfdf;
+  background-color: #fdfcfb;
+  color: #393939;
+  transition: border-color 0.2s ease-in-out;
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: normal;
+  font-style: normal;
+  height: 50px;
+  /* padding: 0 5px; */
+  max-width: 100%;
+  border-width: 1px;
+  border-style: solid;
+  appearance: none;
+  min-width: 100px;
+  width: 100%;
+}
+
+select{
+    border-color: #dfdfdf;
+    background-color: #fdfcfb;
+    color: #393939;
+    transition: border-color 0.2s ease-in-out;
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: normal;
+    font-style: normal;
+    height: 50px;
+    padding: 0 20px;
+    max-width: 100%;
+    border-width: 1px;
+    border-style: solid;
+    appearance: none;
+    min-width: 100px;
+    width: 100%;
+}
+ 
+.add-form {
+  margin-top: 40px;
+}
+.form-control {
+  /* margin: 10px 0; */
+}
+.form-control label {
+  display: flex;
+  margin-top: 10px;
+}
+ 
+.form-control-check {
+  display: flex;
+  align-items: center;
+}
+.form-control-check label {
+  flex: 1;
+}
+.form-control-check input {
+  flex: 2;
+  height: 20px;
+}
+
+.form-control input[type="checkbox"] {
+    width: auto;
+    flex: unset;
+    height: 20px;
+    margin-right: 20px;
+}
+
+.form-control input[type="radio"] {
+width: auto;
+/* flex: unset; */
+/* height: 20px; */
+margin-right: 20px;
+display: flex;
+}
+ 
+input:focus {
+  border-color: #484c53;
+  outline: none;
+}
+ 
+/* button */
+
+.btnDelete {
+  display: flex;
+  float: right;
+  background: #ff0000;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 10px;
+  font-family: inherit;
+}
+
+.btn {
+  display: inline-block;
+  background: #1cab47;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 18px;
+  font-family: inherit;
+}
+
+.btn:focus {
+  outline: none;
+}
+.btn:active {
+  transform: scale(0.98);
+}
+.btn-block {
+  display: block;
+  width: 100%;
+}
+.btn-cliente {
+    display: inline-block;
+    background: #6badf8;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: inherit;
+  }
+
+/* container */
+ 
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: auto;
+    min-height: 90vh;
+    background-color: #faf8f2;
+    padding: 15px;
+    border-radius: 5px;
+    position: relative;
+    box-shadow: 0px 4px 11px 0px rgb(0 0 0 / 14%);
+  }
+   
+.half {
+  flex: 0 0 48%;
+  cursor: pointer;
+  padding: 3px;
+}
+
+.rows {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+}
+ 
+.rows label {
+  display: flex;
+  margin-top: 10px;
+}
+
+.fundo-cinza{
+  background: #cccccc;
+}
+
+.items {
+  width: 95%;
+  margin: 5px;
+  padding: 5px;
+  border: 1px solid lightgrey;
+  cursor: pointer;
+  align-items: left;
+  text-align: left;
+}
+
+.itemSelected{
+  background-color: #cccccc;
+}
